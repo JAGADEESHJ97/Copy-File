@@ -6,22 +6,23 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Open the file f1 in read mode.
 ### Step 2: 
- 
+ Open the file f2 in append mode.
 ### Step 3: 
-
+Copy the contents using write() with the for loop.
 ### Step 4:  
-
-### Step 5: 
-
-### Step 6: 
-
+End the program
 ## PROGRAM:
-
+```
+#DEVELOPED BY :JAGADEESH J
+# REGISTER NO:21222310015
+with open("text.txt",'r') as fp:
+    msg1=fp.read()
+with open("copytxt",'w') as fp1:
+    fp1.write(msg1)
+```
 ### OUTPUT:
-
-
-
+![alt text](<Screenshot 2024-05-13 033253.png>)
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
